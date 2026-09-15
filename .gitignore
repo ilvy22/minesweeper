@@ -1,0 +1,13 @@
+.gradle/
+.kotlin/
+.tooling/
+.android/
+dist/
+*.apk
+*.aab
+**/__pycache__/
+local.properties
+**/build/
+*.jks
+*.keystore
+!gradle/wrapper/gradle-wrapper.jar

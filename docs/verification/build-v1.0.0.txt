@@ -1,0 +1,45 @@
+HaruMinesweeper 1.0.0 verification
+Date: 2026-09-15
+Build: assembleDebug + testDebugUnitTest + lintDebug succeeded
+JDK 17 / Gradle 8.11.1 / compileSdk 36
+APK bytes: 17329031
+APK SHA256: f97f9ea68f2f6cc7241e80ece5c11acafa865139351976f8842ca5a52c49dd37
+
+JUnit total: 23
+com.harudaeum.minesweeper.data.ActiveTimerTest: 5 tests, 0 failures, 0 errors
+com.harudaeum.minesweeper.data.PersonalBestsTest: 3 tests, 0 failures, 0 errors
+com.harudaeum.minesweeper.data.RecordHistoryTest: 3 tests, 0 failures, 0 errors
+com.harudaeum.minesweeper.game.MinesweeperTest: 12 tests, 0 failures, 0 errors
+
+Android Lint: 0 errors, 2 warnings
+Warnings: ObsoleteSdkInt (adaptive icon folder qualifier), UseKtx (explicit commit result check)
+
+package: name='com.harudaeum.minesweeper' versionCode='1' versionName='1.0.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+minSdkVersion:'26'
+targetSdkVersion:'36'
+uses-permission: name='com.harudaeum.minesweeper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+application-label:'하루지뢰찾기'
+launchable-activity: name='com.harudaeum.minesweeper.MainActivity'  label='' icon=''
+native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'
+
+allowBackup=false; no INTERNET permission
+
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Android Debug, O=Haru Minesweeper, C=KR
+Signer #1 certificate SHA-256 digest: 1e88de07cb5177540422d414edaea22faf34af5f5a16981daf234a047778b822
+Signer #1 certificate SHA-1 digest: 022074486dd3a7192b43f10b1abd540774c2b8ed
+Signer #1 certificate MD5 digest: 6554856b0e13f235ab0806ea5ff8df01
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 146c75d32c5e9897267354b03ad9d0f0268a9bcfae50a38a3350f9cdea0684fd
+Signer #1 public key SHA-1 digest: 5d1f2cc95093326957bca36b99c782ff55996765
+Signer #1 public key MD5 digest: 6733cbff69821229faef46780e494b4e
+
+Device UI/runtime verification: not performed; adb devices -l returned no connected devices.
